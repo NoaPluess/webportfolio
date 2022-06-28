@@ -1,16 +1,84 @@
 
   body{
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
+  }
+
+#top {
+    text-align: center;
+  }
+
+#logo {
+  color: white;
+  background-color: brown;
+  display: inline-block;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 8px;
+  margin-top: 16px; 
 }
 
-h1{
-    color: blue; 
+#logo-name{
+  font-size: 32px;
+  font-weight: bold;
+  margin: 16px;
 }
 
-h2{
-    background-color: red;
+#navigation a {
+    color: gray;
+    padding: 6px;
 }
+
+#navigation a:hover {
+    color: brown;
+}
+
+#image img {
+    width: 70%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#main {
+    width: 800px;
+    margin: auto;
+}
+
+#footer {
+    text-align: center;
+    padding: 16px;
+}
+
+#haupt {
+   
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-left: 80px;
+}
+
+#blog{
+    color: white;
+    background-color: brown;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 8px;
+    margin-top: 16px; 
+}
+#navi {
+    text-align: center;
+    color: gray;
+    padding: 8px;
+    
+
+}
+#bild img{
+    width: 50%;
+
+}
+
+
 
 
 table{
@@ -23,4 +91,36 @@ td{
     border: solid;
     border-spacing: 10px;
     border-color: red;
+}
+.textfelder{
+    width: 100%; 
+    padding: 12px 20px; 
+    margin: 8px 0;
+    display: inline-block; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box;
+    }
+    .submitter{
+        width: 100%; 
+        padding: 12px 20px;
+        margin: 8px 0; 
+        display: inline-block; 
+        border: 1px solid #ccc; 
+        box-sizing: border-box;
+    }
+    
+    .forms{
+        margin:auto;
+        width: 100%;
+
+    }
+
+.center {
+    margin: 0 auto;
+
+}
+
+.max-width {
+    width: 100%;
+    display: flex;
 }
